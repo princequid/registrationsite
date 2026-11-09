@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #02274b;
+}
+.logo {
+  width: 5%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #101b35;
+  background: rgb(255,255,255, 0.13);
+  backdrop-filter: blur(15px);
+  border-bottom: 1px solid rgb(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(15px);
+  box-shadow: 0 7px 30px rgba(61, 61, 61, 0.3 )
+}
+.brand {
+  display: flex;
+  align-items: left;
+  margin: 5px;
+}
+
+.name {
+  color: white;
+  position: relative;
+  top: 15px;
+  left: 5px;
+}
+.name a {
+  text-decoration: none;
+  color: white;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  gap: 10px;
+  padding: 10px;
+  text-decoration: none;
+  list-style-type: none;
+  border: none;
+}
+.links a {
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+.links a:hover {
+  color: #22d3ee;
+}
+.links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #e4cfa8;
+
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+  
+}
+.links a:hover::after {
+  transform: scaleX(1);
+  transition: transform 0.6s ease;
+}
+.registerbtn {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  padding: 10px;
+  background-color: #14ffc4;
+  border-radius: 8px;
+  border: 1px solid #fafafa;
+  font-weight: 550;
+}
+.registerbtn:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+/*hero section */
+.herosection {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+.bootcamp {
+  color: rgb(185, 181, 181);
+  font-size: 12px;
+  padding: 5px;
+}
+.slogan {
+  color: white;
+  font-size: 25px;
+}
+.message {
+  color: rgb(235, 236, 236);
+  padding-top: 10px;
+  padding-bottom: 8px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1.1px;
+}
+.herobtn {
+  position: absolute;
+  left: 35%;
+  padding: 10px;
+}
+.explorebtn {
+  margin-right: 37px;
+  background-color: #22d3ee;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid #ffffff;
+  font-weight: 550;
+
+  cursor: pointer;
+}
+.registration {
+  margin-left: 15px;
+  background-color: #14ffc4;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid #ffffff;
+  font-weight: 550;
+  cursor: pointer;
+ 
+}
+.arrow {
+  width: 30px;
+  padding-left: 5px;
+  position: relative;
+  top: 3px;
+  height: 13px;
+}
+.registration:hover,
+.explorebtn:hover {
+  transform: translateY(-5px);
+  transition: transform 0.4s ease-in-out;
+  box-shadow: 0 4px 10px black;
+}
+
+/*programs*/
+.program{
+background-color: #22d3ee;
+  margin: 30px;
+}
+.programs{
+display: flex;
+
+}
+.mobiledev{
+  background-color:#18284d;
+  padding: 33px;
+  border-radius: 20px;
+  color:white;
+  padding-top:20px;
+}
+.mobiletitle{
+  display:flex;
+  margin-right: 230px;
+  border-radius: 20px;
+  padding:5px;
+  background: rgb(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgb(255, 255, 255, 0.3);
+  box-shadow: 0 7px 30px rgba(0, 0, 0, 0.55);
+  margin-bottom:30px;
+}
+.mobileicon{
+  width:22px;
+  height:22px;
+  margin-left: 6px;
+  background: rgb(255,255,255, 0.13);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgb(255, 255,255, 0.3);
+  border-radius: 10px;
+  padding:4px;
+}
+.outline{
+  position: absolute;
+  right:0;
+  margin: 50px;
+}
+.stack{
+  display: flex;
+}
+.react{
+  display:flex;
+}
+.reacticon{
+  width:30px;
+  height:35px;
+  margin-right:7px;
+}
+.ios{
+  display: flex;
+}
+.iosicon{
+  width:21px;
+  height:21px;
+  margin-right:5px;
+  margin-left:5px;
+}
+.android{
+  width:21px;
+  height:21px;
+  margin-left:5px;
+  position: absolute;
+  bottom:296px;
+  left:px;
+}
+.rocket{
+  display: flex;
+  
+}
+.rocketicon{
+  width:34px;
+  height:34px;
+  margin-left:5px;
+  margin-right:5px;
+
+}
